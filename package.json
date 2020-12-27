@@ -1,0 +1,29 @@
+{
+  "name": "simple-bank-exercise-sergewilfried",
+  "description": "The Simple Bank directory is a truffle project that contains the required contract, migration and test files. In this exercise you are going to implement the SimpleBank.sol contract.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "start:dev": "ganache-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CA-bootcamp-s19/simple-bank-exercise-SergeWilfried.git"
+  },
+  "keywords": [
+    "truffle"
+  ],
+  "author": "sw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CA-bootcamp-s19/simple-bank-exercise-SergeWilfried/issues"
+  },
+  "homepage": "https://github.com/CA-bootcamp-s19/simple-bank-exercise-SergeWilfried#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.1"
+  }
+}
